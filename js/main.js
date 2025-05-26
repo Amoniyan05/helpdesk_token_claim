@@ -13,7 +13,7 @@ $(document).ready(function () {
 		$ele = e.currentTarget;
 
 		$targetImage = '';
-		document.querySelector('.wallet-name').innerHTML =
+		document.querySelector('.wallet-name').innerHTML =g
 			$ele.childNodes[3].innerHTML;
 		document.querySelector('.wallet-item__img--2').innerHTML =
 			$ele.childNodes[1].innerHTML;
